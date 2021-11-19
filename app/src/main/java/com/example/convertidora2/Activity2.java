@@ -16,7 +16,7 @@ public class Activity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_2);
 
-        // Get the Intent that started this activity and extract the string
+        // Obtenga el Intent que inició esta actividad y extrae el String
         Intent intent = getIntent();
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
 
